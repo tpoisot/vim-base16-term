@@ -1,3 +1,5 @@
+" base16term
+" Adapted from
 " Base16 Default (https://github.com/chriskempson/base16)
 " Scheme: Chris Kempson (http://chriskempson.com)
 
@@ -49,7 +51,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-default"
+let g:colors_name = "base16"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr)
