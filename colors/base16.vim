@@ -193,8 +193,7 @@ call <sid>hi("GitGutterDelete",  s:cterm08, s:cterm01, "")
 " Signify highlighting
 call <sid>hi("SignifySignAdd",     s:cterm0B, "", "")
 call <sid>hi("SignifySignChange",  s:cterm0A, "", "")
-call <sid>hi("SignifySignDelete",  s:cterm0E, "", "")
-
+call <sid>hi("SignifySignDelete",  s:cterm08, "", "")
 
 " NERDTree highlighting
 call <sid>hi("NERDTreeDirSlash",  s:cterm0D, "", "")
@@ -203,8 +202,8 @@ call <sid>hi("NERDTreeExecFile",  s:cterm05, "", "")
 " vim-pandoc highlighting
 call <sid>hi("pandocBlockQuote",           s:cterm0B, "", "")
 call <sid>hi("pandocDelimitedCodeBlock",   s:cterm03, "", "")
-call <sid>hi("pandocPCite",                s:cterm0C, "", "")
-call <sid>hi("pandocPCiteAnchor",          s:cterm0A, "", "")
+call <sid>hi("pandocPCite",                s:cterm0B, "", "")
+call <sid>hi("pandocPCiteAnchor",          s:cterm0D, "", "")
 
 " Remove functions
 delf <sid>hi
