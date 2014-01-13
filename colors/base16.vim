@@ -149,10 +149,10 @@ call <sid>hi("Type",         s:cterm09, "", "none")
 call <sid>hi("Typedef",      s:cterm0A, "", "")
 
 " Spelling highlighting
-call <sid>hi("SpellBad",     s:cterm00, "undercurl")
-call <sid>hi("SpellLocal",   s:cterm00, "undercurl")
-call <sid>hi("SpellCap",     s:cterm00, "undercurl")
-call <sid>hi("SpellRare",    s:cterm00, "undercurl")
+call <sid>hi("SpellBad",     s:cterm08, s:cterm00, "undercurl")
+call <sid>hi("SpellLocal",   s:cterm09, s:cterm00, "undercurl")
+call <sid>hi("SpellCap",     s:cterm0E, s:cterm00, "undercurl")
+call <sid>hi("SpellRare",    c:cterm08, s:cterm00, "undercurl")
 
 " Additional diff highlighting
 call <sid>hi("DiffAdd",      s:cterm0B, s:cterm00, "")
@@ -208,7 +208,6 @@ call <sid>hi("pandocPCiteAnchor",          s:cterm0A, "", "")
 
 " Remove functions
 delf <sid>hi
-delf <sid>gui
 delf <sid>cterm
 
 " Remove color variables
