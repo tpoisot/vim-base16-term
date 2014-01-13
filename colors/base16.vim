@@ -86,7 +86,7 @@ call <sid>hi("Folded",        s:cterm03, s:cterm01, "")
 call <sid>hi("IncSearch",     s:cterm01, s:cterm0A, "none")
 call <sid>hi("Italic",        "", "", "none")
 call <sid>hi("Macro",         s:cterm08, "", "")
-call <sid>hi("MatchParen",    s:cterm03, "",  "")
+call <sid>hi("MatchParen",    s:cterm03, s:cterm07,  "")
 call <sid>hi("ModeMsg",       s:cterm0B, "", "")
 call <sid>hi("MoreMsg",       s:cterm0B, "", "")
 call <sid>hi("Question",      s:cterm0A, "", "")
@@ -203,7 +203,7 @@ call <sid>hi("NERDTreeExecFile",  s:cterm05, "", "")
 " vim-pandoc highlighting
 call <sid>hi("pandocBlockQuote",           s:cterm0B, "", "")
 call <sid>hi("pandocDelimitedCodeBlock",   s:cterm03, "", "")
-call <sid>hi("pandocPCite",                s:cterm0F, "", "")
+call <sid>hi("pandocPCite",                s:cterm0C, "", "")
 call <sid>hi("pandocPCiteAnchor",          s:cterm0A, "", "")
 
 " Remove functions
