@@ -152,7 +152,7 @@ call <sid>hi("Typedef",      s:cterm0A, "", "")
 call <sid>hi("SpellBad",     s:cterm08, s:cterm00, "undercurl")
 call <sid>hi("SpellLocal",   s:cterm09, s:cterm00, "undercurl")
 call <sid>hi("SpellCap",     s:cterm0E, s:cterm00, "undercurl")
-call <sid>hi("SpellRare",    c:cterm08, s:cterm00, "undercurl")
+call <sid>hi("SpellRare",    s:cterm08, s:cterm00, "undercurl")
 
 " Additional diff highlighting
 call <sid>hi("DiffAdd",      s:cterm0B, s:cterm00, "")
