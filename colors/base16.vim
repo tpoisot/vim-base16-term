@@ -205,6 +205,9 @@ call <sid>hi("pandocDelimitedCodeBlock",   s:cterm03, "", "")
 call <sid>hi("pandocPCite",                s:cterm0B, "", "")
 call <sid>hi("pandocPCiteAnchor",          s:cterm0D, "", "")
 
+" vim options
+call <sid>hi("vimOption",          s:cterm0A, "", "")
+
 " Remove functions
 delf <sid>hi
 delf <sid>cterm
