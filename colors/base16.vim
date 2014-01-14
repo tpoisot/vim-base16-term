@@ -9,7 +9,7 @@ let s:cterm03 = "DarkGray"
 let s:cterm05 = "Gray"
 let s:cterm07 = "White"
 let s:cterm08 = "DarkRed"
-let s:cterm0A = "Brown"
+let s:cterm0A = "Yellow"
 let s:cterm0B = "DarkGreen"
 let s:cterm0C = "DarkCyan"
 let s:cterm0D = "DarkBlue"
@@ -185,11 +185,6 @@ call <sid>hi("javaScriptNumber",  s:cterm09, "", "")
 call <sid>hi("gitCommitOverflow",  s:cterm08, "", "")
 call <sid>hi("gitCommitSummary",   s:cterm0B, "", "")
   
-" GitGutter highlighting
-call <sid>hi("GitGutterAdd",     s:cterm0B, s:cterm01, "")
-call <sid>hi("GitGutterChange",  s:cterm0D, s:cterm01, "")
-call <sid>hi("GitGutterDelete",  s:cterm08, s:cterm01, "")
-
 " Signify highlighting
 call <sid>hi("SignifySignAdd",     s:cterm0B, "", "")
 call <sid>hi("SignifySignChange",  s:cterm0A, "", "")
