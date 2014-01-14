@@ -135,7 +135,7 @@ call <sid>hi("Keyword",      s:cterm0E, "", "")
 call <sid>hi("Label",        s:cterm0A, "", "")
 call <sid>hi("Number",       s:cterm09, "", "")
 call <sid>hi("Operator",     s:cterm05, "", "none")
-call <sid>hi("PreProc",      s:cterm0A, "", "")
+call <sid>hi("PreProc",      s:cterm0A, "", "bold")
 call <sid>hi("Repeat",       s:cterm0A, "", "")
 call <sid>hi("Special",      s:cterm0C, "", "")
 call <sid>hi("SpecialChar",  s:cterm0F, "", "")
@@ -204,9 +204,6 @@ call <sid>hi("pandocBlockQuote",           s:cterm0B, "", "")
 call <sid>hi("pandocDelimitedCodeBlock",   s:cterm03, "", "")
 call <sid>hi("pandocPCite",                s:cterm0B, "", "")
 call <sid>hi("pandocPCiteAnchor",          s:cterm0D, "", "")
-
-" vim options
-call <sid>hi("vimOption",          s:cterm0A, "", "")
 
 " Remove functions
 delf <sid>hi
