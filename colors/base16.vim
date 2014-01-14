@@ -99,7 +99,7 @@ call <sid>hi("VisualNOS",     s:cterm08, "", "")
 call <sid>hi("WarningMsg",    s:cterm08, "", "")
 call <sid>hi("WildMenu",      s:cterm08, "", "")
 call <sid>hi("Title",         s:cterm0D, "", "none")
-call <sid>hi("Conceal",       s:cterm0D, s:cterm00, "")
+call <sid>hi("Conceal",       s:cterm09, s:cterm00, "bold")
 call <sid>hi("Cursor",        s:cterm00, s:cterm05, "")
 call <sid>hi("NonText",       s:cterm03, "", "")
 call <sid>hi("Normal",        s:cterm05, s:cterm00, "")
@@ -202,9 +202,9 @@ call <sid>hi("pandocPCiteAnchor",                    s:cterm0D, "", "")
 call <sid>hi("pandocTitleBlockTitle",                s:cterm07, "", "bold")
 call <sid>hi("AtxStart",                             s:cterm09, "", "bold")
 call <sid>hi("pandocAtxHeader",                      s:cterm0D, "", "bold")
+call <sid>hi("pandocSetexHeader",                      s:cterm0D, "", "bold")
 call <sid>hi("pandocReferenceLabel",                 s:cterm0E, "", "")
 call <sid>hi("pandocReferenceDefinitionLabel",       s:cterm0C, "", "")
-
 
 " Remove functions
 delf <sid>hi
