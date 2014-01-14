@@ -199,6 +199,9 @@ call <sid>hi("pandocBlockQuote",           s:cterm0B, "", "")
 call <sid>hi("pandocDelimitedCodeBlock",   s:cterm03, "", "")
 call <sid>hi("pandocPCite",                s:cterm0B, "", "")
 call <sid>hi("pandocPCiteAnchor",          s:cterm0D, "", "")
+call <sid>hi("pandocTitleBlockTitle",      s:cterm00, "", "")
+call <sid>hi("AtxStart",                   s:cterm09, "", "bold")
+
 
 " Remove functions
 delf <sid>hi
