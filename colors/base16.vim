@@ -196,7 +196,7 @@ call <sid>hi("NERDTreeExecFile",  s:cterm05, "", "")
 
 " vim-pandoc highlighting
 call <sid>hi("pandocBlockQuote",                     s:cterm0B, "", "")
-call <sid>hi("pandocDelimitedCodeBlock",             s:cterm03, "", "")
+call <sid>hi("pandocDelimitedCodeBlock",             s:cterm04, "", "")
 call <sid>hi("pandocPCite",                          s:cterm0B, "", "")
 call <sid>hi("pandocPCiteAnchor",                    s:cterm0D, "", "")
 call <sid>hi("pandocTitleBlockTitle",                s:cterm07, "", "bold")
