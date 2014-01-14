@@ -195,12 +195,15 @@ call <sid>hi("NERDTreeDirSlash",  s:cterm0D, "", "")
 call <sid>hi("NERDTreeExecFile",  s:cterm05, "", "")
 
 " vim-pandoc highlighting
-call <sid>hi("pandocBlockQuote",           s:cterm0B, "", "")
-call <sid>hi("pandocDelimitedCodeBlock",   s:cterm03, "", "")
-call <sid>hi("pandocPCite",                s:cterm0B, "", "")
-call <sid>hi("pandocPCiteAnchor",          s:cterm0D, "", "")
-call <sid>hi("pandocTitleBlockTitle",      s:cterm00, "", "")
-call <sid>hi("AtxStart",                   s:cterm09, "", "bold")
+call <sid>hi("pandocBlockQuote",                     s:cterm0B, "", "")
+call <sid>hi("pandocDelimitedCodeBlock",             s:cterm03, "", "")
+call <sid>hi("pandocPCite",                          s:cterm0B, "", "")
+call <sid>hi("pandocPCiteAnchor",                    s:cterm0D, "", "")
+call <sid>hi("pandocTitleBlockTitle",                s:cterm00, "", "")
+call <sid>hi("AtxStart",                             s:cterm09, "", "bold")
+call <sid>hi("pandocAtxHeader",                      s:cterm0D, "", "bold")
+call <sid>hi("pandocReferenceLabel",                 s:cterm0E, "", "")
+call <sid>hi("pandocReferenceDefinitionLabel",       s:cterm0C, "", "")
 
 
 " Remove functions
