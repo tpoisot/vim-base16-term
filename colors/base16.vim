@@ -208,6 +208,7 @@ call <sid>hi("pandocReferenceDefinitionLabel",       s:cterm0C, "", "")
 
 " LaTeX
 call <sid>hi("texBeginEndName",       s:cterm0B, "", "")
+call <sid>hi("texBeginEndModifier",   s:cterm0D, "", "")
 call <sid>hi("texStatement",          s:cterm0E, "", "")
 
 " Remove functions
