@@ -206,6 +206,10 @@ call <sid>hi("pandocSetexHeader",                    s:cterm0D, "", "bold")
 call <sid>hi("pandocReferenceLabel",                 s:cterm0E, "", "")
 call <sid>hi("pandocReferenceDefinitionLabel",       s:cterm0C, "", "")
 
+" LaTeX
+call <sid>hi("texBeginEndName",       s:cterm0B, "", "")
+call <sid>hi("texStatement",          s:cterm0E, "", "")
+
 " Remove functions
 delf <sid>hi
 delf <sid>cterm
