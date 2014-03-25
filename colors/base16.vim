@@ -213,6 +213,9 @@ call <sid>hi("texBeginEndName",       s:cterm0B, "", "")
 call <sid>hi("texBeginEndModifier",   s:cterm0D, "", "")
 call <sid>hi("texStatement",          s:cterm0E, "", "")
 
+" julia
+call <sid>hi("juliaBlKeyword",          s:cterm0D, "", "")
+
 " Remove functions
 delf <sid>hi
 delf <sid>cterm
