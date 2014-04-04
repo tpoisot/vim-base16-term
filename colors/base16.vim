@@ -156,7 +156,7 @@ call <sid>hi("SpellRare",    s:cterm08, s:cterm00, "undercurl")
 
 " Additional diff highlighting
 call <sid>hi("DiffAdd",      s:cterm0B, s:cterm01, "bold")
-call <sid>hi("DiffChange",   s:cterm05, s:cterm00, "")
+call <sid>hi("DiffChange",   s:cterm05, s:cterm01, "")
 call <sid>hi("DiffDelete",   s:cterm08, s:cterm01, "")
 call <sid>hi("DiffText",     s:cterm0D, s:cterm0C, "")
 call <sid>hi("DiffAdded",    s:cterm0B, s:cterm00, "")
