@@ -207,6 +207,7 @@ call <sid>hi("pandocAtxHeader",                      s:cterm0D, "", "bold")
 call <sid>hi("pandocSetexHeader",                    s:cterm0D, "", "bold")
 call <sid>hi("pandocReferenceLabel",                 s:cterm0E, "", "")
 call <sid>hi("pandocReferenceDefinitionLabel",       s:cterm0C, "", "")
+call <sid>hi("pandocNewLine",                        "", s:cterm01, "")
 
 " LaTeX
 call <sid>hi("texBeginEndName",       s:cterm0B, "", "")
