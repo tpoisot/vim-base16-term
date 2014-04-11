@@ -183,7 +183,9 @@ call <sid>hi("javaScriptNumber",  s:cterm09, "", "")
 
 " Git highlighting
 call <sid>hi("gitCommitOverflow",  s:cterm08, "", "")
-call <sid>hi("gitCommitSummary",   s:cterm0B, "", "")
+call <sid>hi("gitCommitSummary",   s:cterm0D, "", "bold")
+call <sid>hi("gitcommitblank",     s:cterm0F, "", "")
+call <sid>hi("gitcommitHeader",    s:cterm0B, "", "bold")
   
 " Signify highlighting
 call <sid>hi("SignifySignAdd",     s:cterm0B, "", "")
