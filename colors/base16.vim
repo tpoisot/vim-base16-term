@@ -219,6 +219,14 @@ call <sid>hi("texStatement",          s:cterm0E, "", "")
 " julia
 call <sid>hi("juliaBlKeyword",          s:cterm0D, "", "")
 
+" xdefaults
+call <sid>hi("xdefaultsLabel",          s:cterm0E, "", "")
+call <sid>hi("xdefaultsValue",          s:cterm0D, "", "")
+
+" sh
+call <sid>hi("shStatement",          s:cterm0E, "", "")
+call <sid>hi("shSetList",          s:cterm0D, "", "")
+
 " Remove functions
 delf <sid>hi
 delf <sid>cterm
