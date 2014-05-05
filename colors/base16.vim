@@ -209,6 +209,8 @@ call <sid>hi("pandocAtxHeader",                      s:cterm0D, "", "bold")
 call <sid>hi("pandocSetexHeader",                    s:cterm0D, "", "bold")
 call <sid>hi("pandocReferenceLabel",                 s:cterm0E, "", "")
 call <sid>hi("pandocReferenceDefinitionLabel",       s:cterm0C, "", "")
+call <sid>hi("pandocDefinitionBlockTerm",            s:cterm06, "", "bold")
+call <sid>hi("pandocDefinitionBlock",                s:cterm04, "", "")
 call <sid>hi("pandocNewLine",                        "", s:cterm01, "")
 
 " LaTeX
